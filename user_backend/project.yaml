@@ -1,0 +1,10 @@
+blueprint: https://raw.githubusercontent.com/fonipts/pluton-lobby/experiment_4_2024/blueprint/django
+default_choices:
+  add_new_testfile: 'yes'
+  database: postgres
+  docker: None
+  folder_name: user_backend
+  framework: django_rest_framework
+  name: user_backend
+  redis: 'no'
+name: user_backend

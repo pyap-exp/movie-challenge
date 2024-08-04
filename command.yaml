@@ -1,0 +1,26 @@
+script:
+  makemigrate:
+    chdir: "user_backend"
+    command:
+      - python manage.py makemigrations
+  migrate:
+    chdir: "user_backend"
+    command:
+      - python manage.py migrate
+  pip_install:
+    chdir: "user_backend"
+    command:
+      - pip install -r requirements.txt
+    description: Install package
+  run_pg_docker:
+    chdir: "user_backend"
+    command:
+      - docker compose up -d postgres
+  start:
+    chdir: "user_backend"
+    command:
+      - python manage.py runserver
+  db_local_migrate:
+    chdir: "user_backend"
+    command:
+      - python manage.py data_fmovies
