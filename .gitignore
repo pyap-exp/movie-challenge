@@ -1,5 +1,5 @@
-user_frontend/node_modules
-user_frontend/package-lock.json
+users_frontend/node_modules
+user_frontends/package-lock.json
 *.pyc
 user_backend/*.pyc
 user_backend/*/*.pyc
