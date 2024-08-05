@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ["static.fmovies24.to", "gogoflix.shop"],
     remotePatterns: [
       {
         protocol: "https",

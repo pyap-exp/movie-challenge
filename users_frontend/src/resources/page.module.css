@@ -3,10 +3,17 @@
     width: 30%;
     padding: 10px;
 }
+.table_data {
+    width: 30%;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+}
 .page_box {
     padding: 5px;
     position: relative;
-    display: inline-flex;
+    margin: 0 auto;
+    padding: 10px 0px 10px 0px;
+    width: 30%;
 }
 .page_btn_select,
 .page_btn {

@@ -29,8 +29,8 @@ export default function Home() {
   return (
     <>
       <CustomHeader />
-      <div className="container-fluid" align="center">
-        <div className={styles.box_search}>
+      <div className="container-fluid ">
+        <div className={[styles.box_search, `align-center`].join(" ")}>
           <input
             type="text"
             placeholder="Search now"
@@ -41,7 +41,7 @@ export default function Home() {
             Search
           </button>
           <br />
-          <div align="left">{apiCount} Result(s)</div>
+          <div className="align-text-left">{apiCount} Result(s)</div>
         </div>
         <CustomTable api_content={apiContent} />
         <div className={styles.page_box}>
