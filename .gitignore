@@ -1,7 +1,7 @@
-users_frontend/node_modules
+user_frontend/node_modules
 user_frontends/package-lock.json
-users_frontend/.next
-users_frontend/.next/*
+user_frontend/.next
+user_frontend/.next/*
 *.pyc
 user_backend/*.pyc
 user_backend/*/*.pyc
