@@ -1,0 +1,29 @@
+.box_search {
+    border: 1px solid gray;
+    width: 30%;
+    padding: 10px;
+}
+.page_box {
+    padding: 5px;
+    position: relative;
+    display: inline-flex;
+}
+.page_btn_select,
+.page_btn {
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.page_btn_select {
+    background-color: #c0c0c0 !important;
+}
+.visit_link {
+    color: blue;
+}
+.cards_movie_div {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
